@@ -1,8 +1,23 @@
 # Установка
-php yii create-users
-
-Перед началом создайте пользователей
-php yii sessions
-php yii user-sessions
-php yii files
-php yii logs
+Создание пользователей
+```
+  php yii create-users
+```
+# Перед началом создайте пользователей
+Потом запустите команды для заполнения бд данными:
+Создание занятий
+```
+  php yii sessions
+```
+Создание привязка пользователя к занятиям
+```
+  php yii user-sessions
+```
+Создание файлов
+```
+  php yii files
+```
+Создание логов
+```
+  php yii logs
+```
